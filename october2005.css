@@ -1,0 +1,22 @@
+#october2005 h1, #october2005 h1 a:link, #october2005 h1 a:visited, #october2005 h1 a:hover {background: #fff url(october2005.gif);}
+.october2005current {display: none;}
+
+#october2005 #shop-nav {position: absolute; display: block;
+top: 330px; left: 14px;
+margin: 0; padding: 0;
+width: 76px; height: 32px;
+background: url(shop-on.gif);
+text-indent: -9999px;
+/* \*/
+overflow: hidden;
+/* */}
+
+#october2005 #shop-nav a:link, #october2005 #shop-nav a:visited {float: left;
+width: 76px; height: 32px;
+border-bottom: none;
+background: url(shop.gif);}
+
+#october2005 #shop-nav a:hover {border-bottom: none;
+background: url(shop-on.gif);}
+
+/* ph=1 */

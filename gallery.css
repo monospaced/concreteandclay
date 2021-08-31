@@ -1,0 +1,7 @@
+.gallery #blog-container h2, .gallery .blog-body p {display: none;}
+.gallery #blog-container img {margin-top: 20px; margin-bottom: -3px;}
+.gallery #blog-container .posted {margin-top: -21px; text-indent: -9999px;}
+.gallery .blog-body a {padding-bottom: 7px;}
+.gallery .blog-body a:link, .gallery .blog-body a:visited {border-bottom: 1px solid #fff;}
+.gallery .blog-body a:hover {border-bottom: 1px dashed #bbb;}
+/* ph=1 */

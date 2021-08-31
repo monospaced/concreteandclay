@@ -1,0 +1,316 @@
+* {margin: 0;
+padding: 0;}
+
+/* =default banner
+----------------------------------------------- */
+
+h1, h1 a:link, h1 a:visited, h1 a:hover {background: #fff url(july2007.gif);}
+
+/* =typography
+----------------------------------------------- */
+
+html, body {text-align: center;
+font-size: 11px;
+font-family: helvetica, arial, sans-serif;
+color: #555;}
+
+h2, h3 {line-height: 120%;
+font-weight: bold;
+color: #333;}
+
+h2 {padding: 15px 0;
+font-size: 19px;}
+
+h3 {margin: 0 0 1em 0;
+padding: .5em 0 2px 0;
+border-bottom: 1px dotted #bbb;
+font-size: 17px;}
+
+#sidebar h2, #sidebar h3, #search label, #calendar caption {margin: 0 0 .5em 0;
+padding: 1em 0 2px 0;
+border-bottom: 1px dotted #bbb;
+width: 238px;
+line-height: 100%;
+font-size: 17px;
+font-weight: normal;
+color: #777;}
+
+p {margin: 0 0 1em 0;
+line-height: 140%;}
+
+ol {list-style: decimal-leading-zero outside;
+padding-left: 2em;
+margin-bottom: 1em;}
+
+ul {list-style: none;}
+
+li {padding: 3px 0;}
+
+dd {margin: .2em 0 1em 0;}
+
+blockquote {font-weight: normal;
+font-style: normal;}
+
+cite {font-weight: bold;
+font-style: italic;}
+
+address {font-style: normal;
+display: inline;}
+
+ins {text-decoration: none;}
+
+pre {line-height: 140%;
+font-family: helvetica, arial, sans-serif;}
+
+abbr, acronym {letter-spacing: .1em;}
+
+abbr[title], acronym[title] {border-bottom: 1px dotted #555;
+cursor: help;}
+
+p, textarea, input, label, select, option, dl, ol, pre, .blog-body ul {font-size: small;}
+
+/* =links
+----------------------------------------------- */
+
+a {text-decoration: none;
+font-weight: bold;}
+
+a:link, .posted a:link, a:visited {border-bottom: 1px dashed #ddd;
+color: #000;}
+
+.blog-body a:visited, #comment-container a:visited, .digest a:visited {border-bottom: 1px dashed #ccc;
+color: #808080;}
+
+.digest a:visited {text-decoration: line-through;}
+
+.archive #archive-link a:visited, .shop #shop-link a:visited, .shoes #shoes-link a:visited, .tshirts #tshirts-link a:visited, .records #records-link a:visited, .mp3 #mp3-link a:visited, .news #news-link a:visited, .writing #writing-link a:visited, .gallery #gallery-link a:visited, .recipes #recipes-link a:visited, .misc #misc-link a:visited, .noted #noted-link a:visited {border-bottom: 1px dashed #ccc;
+color: #808080;}
+
+a:hover, .posted a:hover, .blog-body a:hover, #comment-container a:hover, .digest a:hover {border-bottom: 1px dashed #bbb;
+color: #666;}
+
+/* =forms
+----------------------------------------------- */
+
+fieldset {border: none;}
+
+input, option, select, textarea {font-family: helvetica, arial, sans-serif;
+color: #444;
+background: #fafafa;}
+
+input, option, textarea {padding: 2px;}
+label, option, select {cursor: pointer;}
+textarea {overflow: auto;}
+
+.buttons input, .comments-open-footer input {cursor: pointer;
+font-weight: bold;
+color: #000;
+background: #fefefe;}
+
+input[type="submit"]:hover, input[type="submit"]:focus {color: #666;
+background: #fff;}
+
+input[type="submit"]:active {cursor: default;}
+
+input[type="text"]:focus, input[size="30"]:focus, textarea[name="text"]:focus {border: 2px solid #000;
+border-right: 2px solid #e5e5e5;
+border-bottom: 2px solid #e5e5e5;
+background: #eee;}
+
+/* =structure
+----------------------------------------------- */
+
+hr, .hide, #shop-nav {display: none;}
+
+#container {position: relative;
+margin: 0 auto;
+width: 750px;
+text-align: left;
+background: url(back.gif) repeat-y;}
+
+#search {position: absolute;
+left: 496px;
+top: 391px;
+width: 238px;}
+
+h1 {border-left: 4px solid #333;
+border-right: 4px solid #333;
+text-indent: -9999px;
+/* \*/
+overflow: hidden;
+/* */}
+
+h1 a:link, h1 a:visited {display: block;
+border-bottom: 4px solid #333;
+width: 742px;
+height: 387px;
+z-index: 1;}
+
+h1 a:hover {border-bottom: 4px solid #333;}
+
+#blog-container {float: left;
+margin: 0 0 0 16px;
+width: 452px;}
+
+#sidebar {float: right;
+margin: 0 16px 0 0;
+padding: 6.5em 0 60px 0;
+width: 238px;}
+
+#footer {clear: both;
+display: block;
+padding: 0 7px;
+border: 4px solid #333;
+border-bottom: none;
+text-align: right;
+background: #fff;
+z-index: 1;}
+
+/* =search
+----------------------------------------------- */
+
+#search label {display: block;}
+#search input {max-width: 180px;}
+#search .buttons {display: inline;}
+
+/* =blog-container
+----------------------------------------------- */
+
+#blog-container h2 {letter-spacing: -1px;}
+
+.blog-body img {margin: 0 0 .4em 0;
+border: 1px dashed #333;}
+
+.blog-body .image-full {width: 238px ! important;}
+
+.blog-body ul {list-style: square outside;
+padding-left: 2em;
+margin-bottom: 1em;}
+
+.delicious-tags {display: none;}
+
+.posted {clear: both;
+margin: 0 0 20px 0;
+padding: .5em 0 40px 0;
+border-bottom: 1px dotted #bbb;
+font-size: 11px;
+color: #999;}
+
+.extended  {font-size: 11px;}
+
+#blog-footer {margin: 20px 0 0 0;
+/* margin: 60px 0 0 0;
+padding: .5em 0;
+border-top: 1px dotted #ddd; */
+text-align: center;
+font-size: 15px;
+text-transform: uppercase;
+letter-spacing: -1px;}
+
+/* =sidebar
+----------------------------------------------- */
+
+#stream-all {position: relative;
+top: -26px;
+left: 36px;
+width: 180px;
+font-size: 11px;}
+
+#mp3-list {margin-top: -27px;
+list-style-type: none;}
+
+#mp3-list li {padding-top: 4px;
+padding-bottom: 8px;
+border-bottom: 1px dotted #ddd;}
+
+#mp3-list h3 {margin: 0 0 0 0;
+padding: 0 0 2px 0;
+border-bottom: none;
+width: 238px;
+font-size: 11px;
+font-weight: bold;
+color: #555;}
+
+#mp3-list p {margin-bottom: 0;
+font-size: 11px;}
+
+/* =calendar
+----------------------------------------------- */
+
+#calendar {margin: 0 0 .5em 0;
+width: 238px;
+text-align: left;}
+
+#calendar table {margin: 0 0 0 3px;
+border-collapse: collapse;
+font-size: 11px;
+text-align: center;}
+
+#calendar caption {text-align: left;}
+
+#calendar th {padding: 1px;
+font-weight: normal;}
+
+#calendar td {padding: 1px 3px 2px 3px;}
+
+/* =footer
+----------------------------------------------- */
+
+#footer p {padding-top: 12px;
+padding-bottom: 1px;
+margin-bottom: 0;
+font-size: 11px;}
+
+#footer blockquote {float: left;
+font-style: italic;}
+
+/* =comments
+----------------------------------------------- */
+
+#comment-container {margin-bottom: 60px;}
+
+#comment-container .posted  {margin: -6px 0 16px 0;
+padding: 0 0 20px 0;}
+
+.author {font-weight: bold;
+color: #555;}
+
+#comment-container input, #comment-container textarea {margin: .2em 0 0 0;}
+
+#comments-open-data {float: left;
+position: relative;
+margin: 0 12px 0 0;
+padding: 0 12px 0 0;
+border-right: 1px solid #eee;
+text-align: left;}
+
+#comments-open-text {clear: both;}
+#comments-open-text textarea {width: 84%;}
+#comments-open-footer input {width: 6em;}
+
+/* =shop
+----------------------------------------------- */
+
+.shop .blog-body {padding: 20px 0;}
+.shop .blog-body .posted {margin-bottom: 0;}
+
+.shop .blog-body select {float: left;
+margin-top: 11px;
+margin-right: 10px;
+width: 6em;
+min-height: 1.8em;}
+
+.shop .blog-body input {float: left;
+margin-right: 10px;}
+
+/* =comment preview
+----------------------------------------------- */
+
+.layout-two-column-right #container {margin: 15px auto 30px auto; background: none;}
+.layout-two-column-right h1 {margin: 0 0 12px 0; border: none; font-size: 27px;}
+.layout-two-column-right h1 a:link, .layout-two-column-right h1 a:visited, .layout-two-column-right h1 a:hover {border: none; width: auto; height: auto; text-indent: 0;}
+.layout-two-column-right label {display: block;}
+.layout-two-column-right #comment-form {margin-bottom: 30px;}
+.layout-two-column-right #comment-text {width: 100%;}
+
+/* ph=1 */

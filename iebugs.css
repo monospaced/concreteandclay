@@ -1,0 +1,4 @@
+html, body {word-wrap: break-word;} /* expanding box bug */
+#blog-container, #sidebar, #comments-open-data {display: inline;} /* doubled float-margin bug */
+#q {width: 156px;}
+/* ph=1 */

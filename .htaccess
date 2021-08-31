@@ -1,0 +1,23 @@
+AddDefaultCharset utf-8
+DefaultLanguage en-gb
+
+Options All -Indexes
+IndexIgnore *
+
+RewriteEngine On
+RewriteRule ^(.*/)?\.svn/ - [F]
+RewriteCond %{HTTP_HOST} ^concreteandclay.org$ [NC]
+RewriteRule ^(.*)$ http://www.concreteandclay.org/$1 [R=301,L]
+
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh|db|epp)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+<FilesMatch "\.(css|js)$">
+<IfModule mod_headers.c>
+ Header set Vary "Accept-Encoding"
+</IfModule>
+</FilesMatch>
+
+redirect 301 /mp3/ http://www.concreteandclay.org/

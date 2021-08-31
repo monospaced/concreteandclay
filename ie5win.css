@@ -1,0 +1,13 @@
+/* ie 5.0 and ie 5.5 misinterpret font-size keywords */
+p, textarea, input, label, dl, ol, select, option, pre, .blog-body ul {font-size: x-small;}
+/* ie 5.0 ignores borders on inline elements */
+a:link, a:visited {border-bottom: none; text-decoration: underline;} a:hover {text-decoration: none;}
+/* ie5.0 ignores word-wrap:break-word for expanding box bug */
+#blog-container {overflow: hidden;}
+/* ie 5.0 needs phark image replacement workaround */
+h1 a:link, h1 a:visited, h1 a:hover {float: left;} 
+/* float:left in previous rule necessitates positioning tweaks */
+#blog-container {margin: 0 0 0 12px;} #sidebar {margin: 0 12px 0 0;} #search {top: 386px;}
+/* gullotine bug */
+#licence {margin-top: 4px; height: 1px;}
+/* ph=1 */

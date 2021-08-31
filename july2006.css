@@ -1,0 +1,22 @@
+#july2006 h1, #july2006 h1 a:link, #july2006 h1 a:visited, #july2006 h1 a:hover {background: #fff url(july2006.gif);}
+.july2006current {display: none;}
+
+#july2006 #shop-nav {position: absolute; display: block;
+top: 64px; left: 472px;
+margin: 0; padding: 0;
+width: 218px; height: 76px;
+background: url(shop2-on.gif);
+text-indent: -9999px;
+/* \*/
+overflow: hidden;
+/* */}
+
+#july2006 #shop-nav a:link, #july2006 #shop-nav a:visited {float: left;
+top: 64px; left: 472px;
+border-bottom: none;
+width: 218px; height: 76px;
+background: url(shop2.gif);}
+
+#july2006 #shop-nav a:hover {border-bottom: none;
+background: url(shop2-on.gif);}
+/* ph=1 */
